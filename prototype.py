@@ -13,9 +13,12 @@ while num_random != num_input:
         num_random = random.randrange(1,num_max)
     
     #cheats
+    if num_input == 666:
+        print("https://youtu.be/WxnN05vOuSM")
     if num_input == 1337:
         print(f"cheat {num_random}")
     if num_input == 1338:
+        print("u r winrar!")
         score = 1
         break
     
